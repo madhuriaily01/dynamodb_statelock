@@ -15,6 +15,8 @@ resource "aws_subnet" "subnet2-public" {
 
   tags = {
     Name = "${var.public_subnet2_name}"
+    name ="madhuri"
+    
   }
 }
 
